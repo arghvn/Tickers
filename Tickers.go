@@ -25,4 +25,5 @@ func main() {
 	ticker.Stop()
 	done <- true
 	fmt.Println("Ticker stopped")
+
 }
